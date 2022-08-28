@@ -1,0 +1,30 @@
+name: CustomCrops
+version: '${version}'
+main: net.momirealms.customcrops.CustomCrops
+api-version: 1.17
+authors: [ XiaoMoMi ]
+depend:
+  - ItemsAdder
+  - ProtocolLib
+softdepend:
+  - PlaceholderAPI
+  - Residence
+  - Kingdoms
+  - WorldGuard
+  - GriefDefender
+  - PlotSquared
+  - Towny
+  - Lands
+  - GriefPrevention
+  - mcMMO
+  - AureliumSkills
+  - MMOCore
+  - EcoSkills
+  - CrashClaim
+  - RealisticSeasons
+commands:
+  customcrops:
+    usage: /customcrops <args>
+    permission: customcrops.admin
+    aliases:
+      - ccrops
